@@ -1,0 +1,14 @@
+package com.codebrickie.gwtjee.client;
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+  
+  <g:HTMLPanel>
+    <g:FlowPanel>
+      <g:Label text="{messages.name}" />
+      <g:TextBox ui:field="nameField" />
+      <g:Button text="{messages.send}" ui:field="sendButton" />
+    </g:FlowPanel>
+  </g:HTMLPanel>
+  
+</ui:UiBinder>

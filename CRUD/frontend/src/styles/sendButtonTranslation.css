@@ -1,0 +1,11 @@
+package styles;
+
+.sendButtonTranslation {
+    color: blue;
+    font-size: 16px;
+}
+
+.nameFieldTranslation {
+    color: green;
+    font-size: 14px;
+}

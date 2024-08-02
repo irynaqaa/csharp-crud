@@ -1,0 +1,14 @@
+package views;
+
+<html>
+<head>
+    <title>Send Button Translation</title>
+</head>
+<body>
+    <div ng-app="translationApp" ng-controller="translationCtrl">
+        <h1>{{ 'sendButtonTranslation' | translate }}</h1>
+        <input type="text" ng-model="nameField" placeholder="{{ 'nameFieldTranslation' | translate }}">
+        <button>{{ 'sendButtonTranslation' | translate }}</button>
+    </div>
+</body>
+</html>

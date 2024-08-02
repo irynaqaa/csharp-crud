@@ -1,0 +1,12 @@
+package com.codebrickie.gwtjee;
+
+<module>
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="com.google.gwt.user.theme.standard.Standard"/>
+
+    <entry-point class="com.codebrickie.gwtjee.client.GWTJEE"/>
+
+    <source path="client"/>
+    <source path="domain"/>
+    <source path="shared"/>
+</module>
